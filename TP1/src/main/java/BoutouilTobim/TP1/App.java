@@ -11,8 +11,8 @@ public class App
     	MyFirstTest m = new MyFirstTest();
         System.out.println( "Hello World!" );
         m.Afficher();
-        
         String string_test = "Yolo";
+        /* Test des cas limites ? */
         StringUtils s = new StringUtils();
         s.reverseString(string_test);
     }

@@ -42,4 +42,11 @@ public class MyFirstTest
 		log.info("My Third Test");
 		Assert.assertEquals(compare_a, compare_b);
 	}
+	
+	@Test
+	public void fourth_Test()
+	{
+		log.info("My Fourth Test");
+		Assert.assertTrue(a > b);
+	}
 }
